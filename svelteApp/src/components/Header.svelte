@@ -15,6 +15,9 @@
         margin:15px;
         cursor: pointer;
         font-size: 15px;
+        background-color: black;
+        color:white;
+        padding:7px;
     }
     header{
         background-color: white;

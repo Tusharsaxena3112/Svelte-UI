@@ -2,6 +2,8 @@
 	import Header from "./components/Header.svelte";
 	import Footer from "./components/Footer.svelte";
 	import Tabs from "./components/Tabs.svelte";
+	import Series from "./components/Series.svelte";
+	import Movies from "./components/Movies.svelte";
 
 	let items = ["Series","Movies"];
 	let activeItem = "Series";
@@ -15,6 +17,11 @@
 <main>
   <Header/>
   <Tabs on:tabChange={handleTabChange} {items} {activeItem}/>
+  {#if activeItem === 'Series'}
+  	<Series/>
+	  {:else}
+	  <Movies/>
+  {/if}
   
   <Footer/>
 </main>
