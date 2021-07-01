@@ -14,6 +14,7 @@
     h1{
         margin:15px;
         cursor: pointer;
+        font-size: 15px;
     }
     header{
         background-color: white;
