@@ -36,6 +36,10 @@
         box-shadow: 1px 1px 1px 1px grey;
         border-radius: 2px;
     }
+    .card:hover{
+        filter: grayscale(100%);
+        transition: 0.5s;
+    }
     .img img{
         width:100%;
     }

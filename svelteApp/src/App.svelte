@@ -31,6 +31,6 @@
 		margin: auto 50px;
 		background-color: blanchedalmond;
 		padding:10px;
-		box-shadow: 1px 1px 1px 1px grey;
+		box-shadow: 2px 2px 2px 2px white;
 	}
 </style>

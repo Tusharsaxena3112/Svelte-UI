@@ -35,6 +35,10 @@
         margin:10px;
         box-shadow: 1px 1px 1px 1px grey;
     }
+    .card:hover{
+        filter: grayscale(100%);
+        transition: 0.5s;
+    }
     .img img{
         width:100%;
     }
