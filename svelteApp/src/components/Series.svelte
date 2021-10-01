@@ -15,7 +15,7 @@
         {#if card.programType === 'series'}
         <div class="card">
             <div class="img">
-                <img  height="500px" src={card["images"]["Poster Art"]["url"]} alt="img">
+                <img  height="350px" src={card["images"]["Poster Art"]["url"]} alt="img">
             </div>
             <p>{card.title}</p>
         </div>
@@ -27,21 +27,24 @@
 <style>
     .series{
         display: grid;
-        grid-template-columns: 30% 30% 30%;
+        grid-template-columns: 27% 27% 27%;
         justify-content: center;
         align-items: center;
     }
     .card{
-        margin:10px;
+        margin:13px;
         box-shadow: 1px 1px 1px 1px grey;
         border-radius: 2px;
+        border-radius: 10px;
     }
     .card:hover{
         filter: grayscale(100%);
         transition: 0.5s;
+        cursor: pointer;
     }
     .img img{
         width:100%;
+        border-radius: 10px;
     }
     .card p{
         text-align: center;

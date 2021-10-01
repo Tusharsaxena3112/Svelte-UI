@@ -17,7 +17,8 @@
         font-size: 15px;
         background-color: black;
         color:white;
-        padding:7px;
+        padding:10px;
+        border-radius: 10px;
     }
     header{
         background-color: white;
@@ -25,6 +26,7 @@
         display: flex;
         justify-content: space-between;
         margin-bottom:20px;
+        border-radius: 20px;
     }
     .outs{
         display: flex;
